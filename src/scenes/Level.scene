@@ -1,0 +1,80 @@
+{
+    "id": "01aefa93-6044-4159-8358-7e91310aa05f",
+    "sceneType": "SCENE",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "importFileExtension": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Level",
+        "borderWidth": 1400,
+        "borderHeight": 800
+    },
+    "displayList": [
+        {
+            "type": "TilemapLayer",
+            "id": "afdb11ed-a63d-41f2-850a-822468f3f7c7",
+            "label": "ch_o_1",
+            "tilemapId": "b6c371f4-ddeb-4964-a3e1-927630b10a84",
+            "layerName": "Chão",
+            "tilesets": [
+                "city-map"
+            ]
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "cc7ca288-bb31-4179-b084-30301f01aa3c",
+            "label": "objetos_1",
+            "tilemapId": "bb683ed2-ff3b-4946-a7c2-2a7634c97436",
+            "layerName": "Objetos",
+            "tilesets": [
+                "city-map"
+            ]
+        }
+    ],
+    "plainObjects": [
+        {
+            "id": "1a06af69-54b3-4b93-b821-ec2717dce4fc",
+            "type": "Tilemap",
+            "label": "delfi_city",
+            "key": "delfi-city",
+            "tilesets": [
+                {
+                    "name": "city-map",
+                    "imageKey": "tilemap_packed"
+                }
+            ]
+        },
+        {
+            "id": "b6c371f4-ddeb-4964-a3e1-927630b10a84",
+            "type": "Tilemap",
+            "label": "delfi_city_1",
+            "key": "delfi-city",
+            "tilesets": [
+                {
+                    "name": "city-map",
+                    "imageKey": "tilemap_packed"
+                }
+            ]
+        },
+        {
+            "id": "bb683ed2-ff3b-4946-a7c2-2a7634c97436",
+            "type": "Tilemap",
+            "label": "delfi_city_2",
+            "key": "delfi-city",
+            "tilesets": [
+                {
+                    "name": "city-map",
+                    "imageKey": "tilemap_packed"
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}
