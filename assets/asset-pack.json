@@ -2,9 +2,24 @@
     "section1": {
         "files": [
             {
+                "url": "assets/animations.json",
+                "type": "animation",
+                "key": "animations"
+            },
+            {
                 "url": "assets/tilemaps/delfi-city.json",
                 "type": "tilemapTiledJSON",
                 "key": "delfi-city"
+            },
+            {
+                "url": "assets/tilemaps/delfiCity.json",
+                "type": "tilemapTiledJSON",
+                "key": "delfiCity"
+            },
+            {
+                "url": "assets/tilemaps/delfiCityn.json",
+                "type": "tilemapTiledJSON",
+                "key": "delfiCityn"
             },
             {
                 "url": "assets/dino.png",
@@ -12,9 +27,127 @@
                 "type": "image"
             },
             {
+                "url": "assets/sprites/test/frames/move-down/move-dw1.png",
+                "type": "image",
+                "key": "move-dw1"
+            },
+            {
+                "url": "assets/sprites/test/frames/move-down/move-dw2.png",
+                "type": "image",
+                "key": "move-dw2"
+            },
+            {
+                "url": "assets/sprites/test/frames/move-down/move-dw3.png",
+                "type": "image",
+                "key": "move-dw3"
+            },
+            {
+                "url": "assets/sprites/test/frames/move-left/move-l1.png",
+                "type": "image",
+                "key": "move-l1"
+            },
+            {
+                "url": "assets/sprites/test/frames/move-left/move-l2.png",
+                "type": "image",
+                "key": "move-l2"
+            },
+            {
+                "url": "assets/sprites/test/frames/move-left/move-l3.png",
+                "type": "image",
+                "key": "move-l3"
+            },
+            {
+                "url": "assets/sprites/test/frames/move-left/move-l4.png",
+                "type": "image",
+                "key": "move-l4"
+            },
+            {
+                "url": "assets/sprites/test/frames/move-rigth/move-r1.png",
+                "type": "image",
+                "key": "move-r1"
+            },
+            {
+                "url": "assets/sprites/test/frames/move-rigth/move-r2.png",
+                "type": "image",
+                "key": "move-r2"
+            },
+            {
+                "url": "assets/sprites/test/frames/move-rigth/move-r3.png",
+                "type": "image",
+                "key": "move-r3"
+            },
+            {
+                "url": "assets/sprites/test/frames/move-rigth/move-r4.png",
+                "type": "image",
+                "key": "move-r4"
+            },
+            {
+                "url": "assets/sprites/test/frames/move-up/move-up1.png",
+                "type": "image",
+                "key": "move-up1"
+            },
+            {
+                "url": "assets/sprites/test/frames/move-up/move-up2.png",
+                "type": "image",
+                "key": "move-up2"
+            },
+            {
+                "url": "assets/sprites/test/frames/move-up/move-up3.png",
+                "type": "image",
+                "key": "move-up3"
+            },
+            {
+                "url": "assets/sprites/test/sprite-test.png",
+                "type": "image",
+                "key": "sprite-test"
+            },
+            {
+                "url": "assets/sprites/test/spritecheat-test.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "spritecheat-test"
+            },
+            {
                 "url": "assets/tilesets/tilemap_packed.png",
                 "type": "image",
                 "key": "tilemap_packed"
+            },
+            {
+                "url": "assets/sprites/test/frames/turn/turn.png",
+                "type": "image",
+                "key": "turn"
+            },
+            {
+                "url": "assets/sprites/test/frames/turn-up/turn-up.png",
+                "type": "image",
+                "key": "turn-up"
+            },
+            {
+                "url": "assets/sprites/test/frames/turn-up/turn-up2.png",
+                "type": "image",
+                "key": "turn-up2"
+            },
+            {
+                "url": "assets/sprites/test/frames/turn/turn2.png",
+                "type": "image",
+                "key": "turn2"
+            },
+            {
+                "url": "assets/sprites/test/frames/turn2/turn2-1.png",
+                "type": "image",
+                "key": "turn2-1"
+            },
+            {
+                "url": "assets/sprites/test/frames/turn2/turn2-2 .png",
+                "type": "image",
+                "key": "turn2-2 "
             }
         ]
     },

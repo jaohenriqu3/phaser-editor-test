@@ -19,8 +19,8 @@
             "id": "845d4ca6-7417-44fc-97e3-a3bb2fbbdd03",
             "label": "progressBar",
             "scope": "CLASS",
-            "x": 553,
-            "y": 361,
+            "x": 646,
+            "y": 388,
             "originX": 0,
             "originY": 0,
             "isFilled": true,
@@ -32,8 +32,8 @@
             "type": "Rectangle",
             "id": "10e175a4-81b6-449e-9561-6d8ba54d3812",
             "label": "progressBarBg",
-            "x": 553.0120849609375,
-            "y": 361,
+            "x": 646,
+            "y": 388,
             "originX": 0,
             "originY": 0,
             "fillColor": "#e0e0e0",
@@ -45,12 +45,24 @@
             "type": "Text",
             "id": "c4092661-6339-47cf-9fea-8abff3a46e0c",
             "label": "loadingText",
-            "x": 552.0120849609375,
-            "y": 329,
+            "x": 645,
+            "y": 356,
             "text": "Loading...",
             "fontFamily": "arial",
             "fontSize": "20px",
             "color": "#e0e0e0"
+        },
+        {
+            "type": "Image",
+            "id": "ac5a076b-76ef-4aed-8627-a6bbb1aaf144",
+            "label": "hat",
+            "texture": {
+                "key": "hat"
+            },
+            "x": 555,
+            "y": 376,
+            "scaleX": 0.5,
+            "scaleY": 0.5
         }
     ],
     "plainObjects": [],

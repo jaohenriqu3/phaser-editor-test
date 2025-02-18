@@ -14,9 +14,9 @@
     "displayList": [
         {
             "type": "TilemapLayer",
-            "id": "afdb11ed-a63d-41f2-850a-822468f3f7c7",
+            "id": "872f1b28-cd66-4b8b-bcf0-deec38a5461c",
             "label": "ch_o_1",
-            "tilemapId": "b6c371f4-ddeb-4964-a3e1-927630b10a84",
+            "tilemapId": "133b7124-b668-4ebc-b89a-eefbce944361",
             "layerName": "Chão",
             "tilesets": [
                 "city-map"
@@ -24,13 +24,34 @@
         },
         {
             "type": "TilemapLayer",
-            "id": "cc7ca288-bb31-4179-b084-30301f01aa3c",
+            "id": "3afe73fb-f71d-4aea-993f-b2765e1bedca",
             "label": "objetos_1",
-            "tilemapId": "bb683ed2-ff3b-4946-a7c2-2a7634c97436",
+            "tilemapId": "47df6144-cee5-4d1c-8758-80e1920cac85",
             "layerName": "Objetos",
             "tilesets": [
                 "city-map"
             ]
+        },
+        {
+            "prefabId": "522cb883-5682-41ad-8a2b-c44472d9a23d",
+            "id": "458c6244-1efa-465d-995b-177c091d7da7",
+            "unlock": [
+                "x",
+                "y",
+                "animationPreview",
+                "animationKey",
+                "animationCustomConfig",
+                "AutoPlayAnimation"
+            ],
+            "label": "player",
+            "useGameObjectName": true,
+            "scope": "CLASS",
+            "AutoPlayAnimation": "",
+            "x": 728,
+            "y": 510,
+            "animationKey": "",
+            "animationCustomConfig": false,
+            "animationPreview": true
         }
     ],
     "plainObjects": [
@@ -39,18 +60,65 @@
             "type": "Tilemap",
             "label": "delfi_city",
             "key": "delfi-city",
-            "tilesets": [
-                {
-                    "name": "city-map",
-                    "imageKey": "tilemap_packed"
-                }
-            ]
+            "tilesets": []
         },
         {
-            "id": "b6c371f4-ddeb-4964-a3e1-927630b10a84",
+            "id": "ed39f830-29a8-4aad-8841-cc3f3068d41f",
+            "type": "Keyboard.Key",
+            "label": "up-key",
+            "keyCode": "UP"
+        },
+        {
+            "id": "c225c653-7a18-4a14-9378-240d7a68addd",
+            "type": "Keyboard.Key",
+            "label": "down-key",
+            "keyCode": "DOWN"
+        },
+        {
+            "id": "d4c9b070-5295-40ae-b4f0-5f54728b37e2",
+            "type": "Keyboard.Key",
+            "label": "left-key",
+            "keyCode": "LEFT"
+        },
+        {
+            "id": "c64ae300-b1a8-4cd0-b8f7-21fbcd99b9b1",
+            "type": "Keyboard.Key",
+            "label": "right-key",
+            "keyCode": "RIGHT"
+        },
+        {
+            "id": "fca78831-6b51-4125-a3ae-80c9c82fd3fa",
             "type": "Tilemap",
             "label": "delfi_city_1",
             "key": "delfi-city",
+            "tilesets": []
+        },
+        {
+            "id": "c519c372-1dfa-421a-b171-b43db12b986a",
+            "type": "Tilemap",
+            "label": "delfi_city_2",
+            "key": "delfi-city",
+            "tilesets": []
+        },
+        {
+            "id": "4518da48-8ca8-4111-8266-299026aeeba3",
+            "type": "Tilemap",
+            "label": "delfi_city_3",
+            "key": "delfi-city",
+            "tilesets": []
+        },
+        {
+            "id": "a09271a2-93d9-422b-9dc0-8755bc9fa593",
+            "type": "Tilemap",
+            "label": "delfi_city_4",
+            "key": "delfi-city",
+            "tilesets": []
+        },
+        {
+            "id": "1aa09a43-c44a-4166-acfd-bde3aaa17c08",
+            "type": "Tilemap",
+            "label": "delfiCity",
+            "key": "delfiCity",
             "tilesets": [
                 {
                     "name": "city-map",
@@ -59,10 +127,34 @@
             ]
         },
         {
-            "id": "bb683ed2-ff3b-4946-a7c2-2a7634c97436",
+            "id": "2e34b07d-af5f-472d-9671-30480f12c60a",
             "type": "Tilemap",
-            "label": "delfi_city_2",
-            "key": "delfi-city",
+            "label": "delfiCity_1",
+            "key": "delfiCity",
+            "tilesets": [
+                {
+                    "name": "city-map",
+                    "imageKey": "tilemap_packed"
+                }
+            ]
+        },
+        {
+            "id": "133b7124-b668-4ebc-b89a-eefbce944361",
+            "type": "Tilemap",
+            "label": "delfiCityn",
+            "key": "delfiCityn",
+            "tilesets": [
+                {
+                    "name": "city-map",
+                    "imageKey": "tilemap_packed"
+                }
+            ]
+        },
+        {
+            "id": "47df6144-cee5-4d1c-8758-80e1920cac85",
+            "type": "Tilemap",
+            "label": "delfiCityn_1",
+            "key": "delfiCityn",
             "tilesets": [
                 {
                     "name": "city-map",

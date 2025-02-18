@@ -1,0 +1,51 @@
+{
+    "id": "522cb883-5682-41ad-8a2b-c44472d9a23d",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "importFileExtension": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1400,
+        "borderHeight": 800
+    },
+    "displayList": [
+        {
+            "type": "ArcadeSprite",
+            "id": "a721ad16-574b-4bbc-a01a-e2e2fa8ad380",
+            "label": "player",
+            "useGameObjectName": true,
+            "texture": {
+                "key": "sprite-test"
+            },
+            "x": 24,
+            "y": 38,
+            "animationPreview": true,
+            "physicsType": 1,
+            "enable": false,
+            "body.width": 64,
+            "body.height": 64
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "prefabProperties": [
+        {
+            "name": "AutoPlayAnimation",
+            "label": "Auto Play Animation",
+            "tooltip": "the animation to play firts",
+            "defValue": "turn",
+            "customDefinition": false,
+            "type": {
+                "id": "animation-key"
+            }
+        }
+    ]
+}
